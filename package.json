@@ -1,19 +1,9 @@
 {
-  "name": "be-recipe-sharing",
-  "version": "1.0.0",
-  "description": "## Recipe Sharing” website is a. project that presents a web application for users to contribute their own recipes. The website features a. user authentication system to allow registered users to access and manage their own recipes, as well as. new functionality help users find specific recipes.",
-  "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/HARE-DEVELOPER/BE-RECIPE-SHARING.git"
-  },
-  "author": "Hare Prabhaharan",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/HARE-DEVELOPER/BE-RECIPE-SHARING/issues"
-  },
-  "homepage": "https://github.com/HARE-DEVELOPER/BE-RECIPE-SHARING#readme"
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "jsonwebtoken": "^9.0.2",
+    "morgan": "^1.10.0"
+  }
 }
